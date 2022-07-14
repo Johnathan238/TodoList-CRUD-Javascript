@@ -16,9 +16,10 @@ const renderTodolist = (todos) => {
     `;
     });
   todo__list.innerHTML = output;
+  console.log(todos);
 };
 
-const URL = "http://localhost:3000/todos";
+const URL = "http://localhost:3000/posts";
 
 // Get - Read the todolist
 // Method: Get
